@@ -61,17 +61,51 @@ hr{
 
 #schedules-settings{
     padding-left:50px;
+    padding-bottom:30px;
+    padding-top: 20px;
 }
 li{
     margin: 10px auto;
 }
 
 li:nth-child(1){
-    list-style: symbols(&#9662;);
-    font-size: 20px;
+    list-style-type:'\25BE';
+    font-size: 30px;
 }
 
 .list-settings{
-    list-style-position: inside;
-    margin-bottom: 20px;
+    list-style-position:initial;
+    list-style-type:'\2713';
+    margin-bottom: 30px;
+}
+
+.list-buttons-settings{
+    font-size: small;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+/*X-checked dots*/
+.x{
+    list-style-type:'\2717';
+}
+
+.q1-goals{
+    background-color:rgb(155, 113, 227) ;
+    color: white;
+}
+.recruiting{
+    background-color:rgb(100, 192, 169) ;
+    color: white;
+}
+.website{
+    background-color:rgb(216, 99, 161) ;
+    color: white;
+}
+.sales{
+    background-color:rgb(176, 201, 38) ;
+    color: white;
+}
+.mobile{
+    background-color:rgb(242, 158, 51) ;
+    color: white;
 }
