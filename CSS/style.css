@@ -1,51 +1,77 @@
+/*Setting Browser Page*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+/*Grey Backgroud*/
 body{
     background-color: rgb(246, 248, 249);
 }
 .white-background{
     background-color: white;
 }
+/*Inline-block for Title and Buttons*/
+.inline-block{
+    display: inline-block;
+}
+/*Setting vertical align for logo and title's site*/
+.vertical-align{
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+#logo-settings{
+    width: auto;
+    height: 50px;
+    padding-left: 30px;
+}
+/*Main Settings*/
 main{
     width: 80%;
     margin: 50px auto;
 }
-#schedule{
-    padding: 20px 50px;
-}
-#button-position{
+
+#buttons-position{
     padding-left:50px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
-.button-settings{
+
+.buttons-settings{
     font-size: 80%;
     padding: 10px 10px;
-    border: 1px solid black;
     border-radius: 5px;
 }
-.inline-block{
-    display: inline-block;
+
+.blue-button{
+    background-color: rgb(71, 173, 241);
+    color: white;
 }
-.sections-setting{
-    display: block;
-    margin: 10px auto;
+
+.trasparent-black{
+    border: 1px solid rgb(0, 0, 0, .3) ;
+    color:rgb(0, 0, 0,.3) ;
 }
-.list-settings{
-    text-align: left;
-    list-style-position: inside;
-    margin-bottom: 20px;
+
+hr{
+    border: 1px solid rgb(0, 0, 0, .1) ;
+}
+
+#schedules-settings{
+    padding-left:50px;
 }
 li{
     margin: 10px auto;
 }
-.list-button-settings{
-    font-size: small;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+
+li:nth-child(1){
+    list-style: symbols(&#9662;);
+    font-size: 20px;
+}
+
+.list-settings{
+    list-style-position: inside;
+    margin-bottom: 20px;
 }
