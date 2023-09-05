@@ -13,14 +13,20 @@ body{
 main{
     width: 80%;
     margin: 50px auto;
-    padding: 20px auto;
+}
+#schedule{
+    padding: 20px 50px;
+}
+#button-position{
+    padding-left:50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .button-settings{
     font-size: 80%;
-    padding: 3px 10px;
+    padding: 10px 10px;
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 10px;
 }
 .inline-block{
     display: inline-block;
@@ -30,13 +36,16 @@ main{
     margin: 10px auto;
 }
 .list-settings{
-    padding: 0;
     text-align: left;
     list-style-position: inside;
+    margin-bottom: 20px;
+}
+li{
+    margin: 10px auto;
 }
 .list-button-settings{
     font-size: small;
-    padding: 3px 10px;
+    padding: 5px 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
